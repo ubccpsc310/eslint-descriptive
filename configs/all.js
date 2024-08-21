@@ -1,18 +1,18 @@
 module.exports = Object.freeze({
     rules: Object.freeze({
-        "eslint-descriptive/adjacent-overload-signatures": "error",
-        "eslint-descriptive/array-type": "error",
-        "eslint-descriptive/await-thenable": "error",
-        "eslint-descriptive/ban-tslint-comment": "error",
-        "eslint-descriptive/consistent-generic-constructors": "error",
-        "eslint-descriptive/consistent-indexed-object-style": "error",
-        "eslint-descriptive/consistent-type-assertions": "error",
-        "eslint-descriptive/consistent-type-definitions": "error",
-        "eslint-descriptive/curly": "error",
-        "eslint-descriptive/dot-notation": ["error", { "allowKeywords": false }],
-        "eslint-descriptive/eqeqeq": "error",
-        "eslint-descriptive/explicit-function-return-type": "error",
-        "eslint-descriptive/explicit-member-accessibility": [
+        "descriptive/adjacent-overload-signatures": "error",
+        "descriptive/array-type": "error",
+        "descriptive/await-thenable": "error",
+        "descriptive/ban-tslint-comment": "error",
+        "descriptive/consistent-generic-constructors": "error",
+        "descriptive/consistent-indexed-object-style": "error",
+        "descriptive/consistent-type-assertions": "error",
+        "descriptive/consistent-type-definitions": "error",
+        "descriptive/curly": "error",
+        "descriptive/dot-notation": ["error", { "allowKeywords": false }],
+        "descriptive/eqeqeq": "error",
+        "descriptive/explicit-function-return-type": "error",
+        "descriptive/explicit-member-accessibility": [
 			"error",
 			{
 				"overrides": {
@@ -20,8 +20,8 @@ module.exports = Object.freeze({
 				}
 			}
 		],
-        "eslint-descriptive/for-direction": "error",
-        "eslint-descriptive/max-len": [
+        "descriptive/for-direction": "error",
+        "descriptive/max-len": [
 			"error",
 			{
 				"code": 120,
@@ -30,7 +30,7 @@ module.exports = Object.freeze({
 				"ignoreStrings": true
 			}
 		],
-        "eslint-descriptive/max-lines": [
+        "descriptive/max-lines": [
 			"error",
 			{
 				"max": 300,
@@ -38,7 +38,7 @@ module.exports = Object.freeze({
 				"skipBlankLines": true
 			}
 		],
-        "eslint-descriptive/max-lines-per-function": [
+        "descriptive/max-lines-per-function": [
 			"error",
 			{
 				"max": 30,
@@ -46,9 +46,9 @@ module.exports = Object.freeze({
 				"skipBlankLines": true
 			}
 		],
-        "eslint-descriptive/max-nested-callbacks": ["error", 2],
-        "eslint-descriptive/max-statements-per-line": "error",
-        "eslint-descriptive/naming-convention": [
+        "descriptive/max-nested-callbacks": ["error", 2],
+        "descriptive/max-statements-per-line": "error",
+        "descriptive/naming-convention": [
 			"error",
 			{
 				"selector": "typeLike",
@@ -59,44 +59,44 @@ module.exports = Object.freeze({
 				"format": ["camelCase", "PascalCase", "UPPER_CASE"],
 			}
 		],
-        "eslint-descriptive/no-async-promise-executor": "error",
-        "eslint-descriptive/no-await-in-loop": "error",
-        "eslint-descriptive/no-bitwise": "error",
-        "eslint-descriptive/no-case-declarations": "error",
-        "eslint-descriptive/no-class-assign": "error",
-        "eslint-descriptive/no-compare-neg-zero": "error",
-        "eslint-descriptive/no-cond-assign": "error",
-        "eslint-descriptive/no-confusing-non-null-assertion": "error",
-        "eslint-descriptive/no-console": "error",
-        "eslint-descriptive/no-constant-binary-expression": "error",
-        "eslint-descriptive/no-constant-condition": "error",
-        "eslint-descriptive/no-control-regex": "error",
-        "eslint-descriptive/no-debugger": "error",
-        "eslint-descriptive/no-delete-var": "error",
-        "eslint-descriptive/no-dupe-else-if": "error",
-        "eslint-descriptive/no-duplicate-case": "error",
-        "eslint-descriptive/no-empty": "error",
-        "eslint-descriptive/no-empty-character-class": "error",
-        "eslint-descriptive/no-empty-function": "error",
-        "eslint-descriptive/no-empty-pattern": "error",
-        "eslint-descriptive/no-empty-static-block": "error",
-        "eslint-descriptive/no-eval": "error",
-        "eslint-descriptive/no-ex-assign": "error",
-        "eslint-descriptive/no-extra-boolean-cast": "error",
-        "eslint-descriptive/no-fallthrough": "error",
-        "eslint-descriptive/no-floating-promises": [
+        "descriptive/no-async-promise-executor": "error",
+        "descriptive/no-await-in-loop": "error",
+        "descriptive/no-bitwise": "error",
+        "descriptive/no-case-declarations": "error",
+        "descriptive/no-class-assign": "error",
+        "descriptive/no-compare-neg-zero": "error",
+        "descriptive/no-cond-assign": "error",
+        "descriptive/no-confusing-non-null-assertion": "error",
+        "descriptive/no-console": "error",
+        "descriptive/no-constant-binary-expression": "error",
+        "descriptive/no-constant-condition": "error",
+        "descriptive/no-control-regex": "error",
+        "descriptive/no-debugger": "error",
+        "descriptive/no-delete-var": "error",
+        "descriptive/no-dupe-else-if": "error",
+        "descriptive/no-duplicate-case": "error",
+        "descriptive/no-empty": "error",
+        "descriptive/no-empty-character-class": "error",
+        "descriptive/no-empty-function": "error",
+        "descriptive/no-empty-pattern": "error",
+        "descriptive/no-empty-static-block": "error",
+        "descriptive/no-eval": "error",
+        "descriptive/no-ex-assign": "error",
+        "descriptive/no-extra-boolean-cast": "error",
+        "descriptive/no-fallthrough": "error",
+        "descriptive/no-floating-promises": [
 			"error",
 			{
 				"ignoreIIFE": true
 			}
 		],
-        "eslint-descriptive/no-for-in-array": "error",
-        "eslint-descriptive/no-global-assign": "error",
-        "eslint-descriptive/no-inferrable-types": "error",
-        "eslint-descriptive/no-invalid-regexp": "error",
-        "eslint-descriptive/no-labels": "error",
-        "eslint-descriptive/no-loss-of-precision": "error",
-        "eslint-descriptive/no-magic-numbers": [
+        "descriptive/no-for-in-array": "error",
+        "descriptive/no-global-assign": "error",
+        "descriptive/no-inferrable-types": "error",
+        "descriptive/no-invalid-regexp": "error",
+        "descriptive/no-labels": "error",
+        "descriptive/no-loss-of-precision": "error",
+        "descriptive/no-magic-numbers": [
 			"error",
 			{
 				"ignoreClassFieldInitialValues": true,
@@ -104,43 +104,43 @@ module.exports = Object.freeze({
 				"ignore": [-1, 0, 1]
 			}
 		],
-        "eslint-descriptive/no-misleading-character-class": "error",
-        "eslint-descriptive/no-misused-promises": [
+        "descriptive/no-misleading-character-class": "error",
+        "descriptive/no-misused-promises": [
 			"error",
 			{
 				"checksConditionals": true,
 				"checksVoidReturn": false
 			}
 		],
-        "eslint-descriptive/no-nonoctal-decimal-escape": "error",
-        "eslint-descriptive/no-octal": "error",
-        "eslint-descriptive/no-prototype-builtins": "error",
-        "eslint-descriptive/no-regex-spaces": "error",
-        "eslint-descriptive/no-self-assign": "error",
-        "eslint-descriptive/no-shadow": "error",
-        "eslint-descriptive/no-shadow-restricted-names": "error",
-        "eslint-descriptive/no-throw-literal": "error",
-        "eslint-descriptive/no-unsafe-finally": "error",
-        "eslint-descriptive/no-unsafe-optional-chaining": "error",
-        "eslint-descriptive/no-unused-expressions": "error",
-        "eslint-descriptive/no-unused-labels": "error",
-        "eslint-descriptive/no-unused-private-class-members": "error",
-        "eslint-descriptive/no-unused-vars": "error",
-        "eslint-descriptive/no-useless-backreference": "error",
-        "eslint-descriptive/no-useless-catch": "error",
-        "eslint-descriptive/no-useless-escape": "error",
-        "eslint-descriptive/no-var": "error",
-        "eslint-descriptive/no-with": "error",
-        "eslint-descriptive/prefer-const": "error",
-        "eslint-descriptive/prefer-find": "error",
-        "eslint-descriptive/prefer-for-of": "error",
-        "eslint-descriptive/prefer-function-type": "error",
-        "eslint-descriptive/prefer-optional-chain": "error",
-        "eslint-descriptive/prefer-spread": "error",
-        "eslint-descriptive/promise-function-async": "error",
-        "eslint-descriptive/radix": "error",
-        "eslint-descriptive/require-await": "error",
-        "eslint-descriptive/unified-signatures": "error",
-        "eslint-descriptive/use-isnan": "error"
+        "descriptive/no-nonoctal-decimal-escape": "error",
+        "descriptive/no-octal": "error",
+        "descriptive/no-prototype-builtins": "error",
+        "descriptive/no-regex-spaces": "error",
+        "descriptive/no-self-assign": "error",
+        "descriptive/no-shadow": "error",
+        "descriptive/no-shadow-restricted-names": "error",
+        "descriptive/no-throw-literal": "error",
+        "descriptive/no-unsafe-finally": "error",
+        "descriptive/no-unsafe-optional-chaining": "error",
+        "descriptive/no-unused-expressions": "error",
+        "descriptive/no-unused-labels": "error",
+        "descriptive/no-unused-private-class-members": "error",
+        "descriptive/no-unused-vars": "error",
+        "descriptive/no-useless-backreference": "error",
+        "descriptive/no-useless-catch": "error",
+        "descriptive/no-useless-escape": "error",
+        "descriptive/no-var": "error",
+        "descriptive/no-with": "error",
+        "descriptive/prefer-const": "error",
+        "descriptive/prefer-find": "error",
+        "descriptive/prefer-for-of": "error",
+        "descriptive/prefer-function-type": "error",
+        "descriptive/prefer-optional-chain": "error",
+        "descriptive/prefer-spread": "error",
+        "descriptive/promise-function-async": "error",
+        "descriptive/radix": "error",
+        "descriptive/require-await": "error",
+        "descriptive/unified-signatures": "error",
+        "descriptive/use-isnan": "error"
     })
 });

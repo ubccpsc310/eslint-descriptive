@@ -1,6 +1,6 @@
 {
-  "name": "eslint-descriptive",
-  "version": "1.0.0",
+  "name": "eslint-plugin-descriptive",
+  "version": "0.1.0",
   "description": "A curated set of lint rules from eslint and typescript-eslint with better error messages.",
   "main": "index.js",
   "keywords": [
