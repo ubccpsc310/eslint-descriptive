@@ -132,7 +132,7 @@ module.exports = Object.freeze({
         "descriptive/no-var": "error",
         "descriptive/no-with": "error",
         "descriptive/prefer-const": "error",
-        "descriptive/prefer-find": "error",
+        // "descriptive/prefer-find": "error",
         "descriptive/prefer-for-of": "error",
         "descriptive/prefer-function-type": "error",
         "descriptive/prefer-optional-chain": "error",
