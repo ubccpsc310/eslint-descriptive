@@ -150,7 +150,7 @@ module.exports = Object.freeze({
         "descriptive/prefer-spread": "error",
         "descriptive/promise-function-async": "error",
         "descriptive/radix": "error",
-        "descriptive/require-await": "error",
+        // "descriptive/require-await": "error",
         "descriptive/unified-signatures": "error",
         "descriptive/use-isnan": "error"
     })
