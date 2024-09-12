@@ -41,7 +41,7 @@ module.exports = Object.freeze({
         "descriptive/max-lines-per-function": [
 			"error",
 			{
-				"max": 30,
+				"max": 35,
 				"skipComments": true,
 				"skipBlankLines": true
 			}
