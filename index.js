@@ -59,7 +59,7 @@ const plugin = {
 		"prefer-spread": "./rules/eslint-prefer-spread.js",
 		"await-thenable": "./rules/ts-eslint-await-thenable.js",
 		"no-magic-numbers": "./rules/eslint-no-magic-numbers.js",
-		"require-await": "./rules/eslint-require-await.js",
+		// "require-await": "./rules/eslint-require-await.js",
 		"no-shadow": "./rules/ts-eslint-no-shadow.js",
 		"curly": "./rules/eslint-curly.js",
 		"no-fallthrough": "./rules/eslint-no-fallthrough.js",

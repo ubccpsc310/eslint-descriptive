@@ -125,7 +125,18 @@ module.exports = Object.freeze({
         "descriptive/no-unused-expressions": "error",
         "descriptive/no-unused-labels": "error",
         "descriptive/no-unused-private-class-members": "error",
-        "descriptive/no-unused-vars": "error",
+        "descriptive/no-unused-vars": [
+            "error",
+            {
+                "args": "all",
+                "argsIgnorePattern": "^_",
+                "caughtErrors": "all",
+                "caughtErrorsIgnorePattern": "^_",
+                "destructuredArrayIgnorePattern": "^_",
+                "varsIgnorePattern": "^_",
+                "ignoreRestSiblings": true
+            }
+        ],
         "descriptive/no-useless-backreference": "error",
         "descriptive/no-useless-catch": "error",
         "descriptive/no-useless-escape": "error",
