@@ -9,7 +9,7 @@ module.exports = Object.freeze({
         "descriptive/consistent-type-assertions": "error",
         "descriptive/consistent-type-definitions": "error",
         "descriptive/curly": "error",
-        "descriptive/dot-notation": ["error", { "allowKeywords": false }],
+        "descriptive/dot-notation": "error",
         "descriptive/eqeqeq": "error",
         "descriptive/explicit-function-return-type": "error",
         "descriptive/explicit-member-accessibility": [
@@ -67,7 +67,7 @@ module.exports = Object.freeze({
         "descriptive/no-compare-neg-zero": "error",
         "descriptive/no-cond-assign": "error",
         "descriptive/no-confusing-non-null-assertion": "error",
-        "descriptive/no-console": "error",
+        "descriptive/no-console": "warn",
         "descriptive/no-constant-binary-expression": "error",
         "descriptive/no-constant-condition": "error",
         "descriptive/no-control-regex": "error",
