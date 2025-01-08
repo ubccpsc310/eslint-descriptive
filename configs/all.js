@@ -1,18 +1,18 @@
 module.exports = Object.freeze({
     rules: Object.freeze({
-        "descriptive/adjacent-overload-signatures": "error",
-        "descriptive/array-type": "error",
-        "descriptive/await-thenable": "error",
-        "descriptive/ban-tslint-comment": "error",
-        "descriptive/consistent-generic-constructors": "error",
-        "descriptive/consistent-indexed-object-style": "error",
-        "descriptive/consistent-type-assertions": "error",
-        "descriptive/consistent-type-definitions": "error",
-        "descriptive/curly": "error",
-        "descriptive/dot-notation": "error",
-        "descriptive/eqeqeq": "error",
-        "descriptive/explicit-function-return-type": "error",
-        "descriptive/explicit-member-accessibility": [
+        "@ubccpsc310/eslint-plugin-descriptive/adjacent-overload-signatures": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/array-type": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/await-thenable": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/ban-tslint-comment": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/consistent-generic-constructors": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/consistent-indexed-object-style": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/consistent-type-assertions": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/consistent-type-definitions": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/curly": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/dot-notation": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/eqeqeq": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/explicit-function-return-type": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/explicit-member-accessibility": [
 			"error",
 			{
 				"overrides": {
@@ -20,8 +20,8 @@ module.exports = Object.freeze({
 				}
 			}
 		],
-        "descriptive/for-direction": "error",
-        "descriptive/max-len": [
+        "@ubccpsc310/eslint-plugin-descriptive/for-direction": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/max-len": [
 			"error",
 			{
 				"code": 120,
@@ -30,7 +30,7 @@ module.exports = Object.freeze({
 				"ignoreStrings": true
 			}
 		],
-        "descriptive/max-lines": [
+        "@ubccpsc310/eslint-plugin-descriptive/max-lines": [
 			"error",
 			{
 				"max": 300,
@@ -38,7 +38,7 @@ module.exports = Object.freeze({
 				"skipBlankLines": true
 			}
 		],
-        "descriptive/max-lines-per-function": [
+        "@ubccpsc310/eslint-plugin-descriptive/max-lines-per-function": [
 			"error",
 			{
 				"max": 35,
@@ -46,9 +46,9 @@ module.exports = Object.freeze({
 				"skipBlankLines": true
 			}
 		],
-        "descriptive/max-nested-callbacks": ["error", 2],
-        "descriptive/max-statements-per-line": "error",
-        "descriptive/naming-convention": [
+        "@ubccpsc310/eslint-plugin-descriptive/max-nested-callbacks": ["error", 2],
+        "@ubccpsc310/eslint-plugin-descriptive/max-statements-per-line": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/naming-convention": [
 			"error",
 			{
 				"selector": "typeLike",
@@ -59,44 +59,44 @@ module.exports = Object.freeze({
 				"format": ["camelCase", "PascalCase", "UPPER_CASE"],
 			}
 		],
-        "descriptive/no-async-promise-executor": "error",
-        "descriptive/no-await-in-loop": "error",
-        "descriptive/no-bitwise": "error",
-        "descriptive/no-case-declarations": "error",
-        "descriptive/no-class-assign": "error",
-        "descriptive/no-compare-neg-zero": "error",
-        "descriptive/no-cond-assign": "error",
-        "descriptive/no-confusing-non-null-assertion": "error",
-        "descriptive/no-console": "warn",
-        "descriptive/no-constant-binary-expression": "error",
-        "descriptive/no-constant-condition": "error",
-        "descriptive/no-control-regex": "error",
-        "descriptive/no-debugger": "error",
-        "descriptive/no-delete-var": "error",
-        "descriptive/no-dupe-else-if": "error",
-        "descriptive/no-duplicate-case": "error",
-        "descriptive/no-empty": "error",
-        "descriptive/no-empty-character-class": "error",
-        "descriptive/no-empty-function": "error",
-        "descriptive/no-empty-pattern": "error",
-        "descriptive/no-empty-static-block": "error",
-        "descriptive/no-eval": "error",
-        "descriptive/no-ex-assign": "error",
-        "descriptive/no-extra-boolean-cast": "error",
-        "descriptive/no-fallthrough": "error",
-        "descriptive/no-floating-promises": [
+        "@ubccpsc310/eslint-plugin-descriptive/no-async-promise-executor": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-await-in-loop": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-bitwise": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-case-declarations": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-class-assign": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-compare-neg-zero": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-cond-assign": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-confusing-non-null-assertion": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-console": "warn",
+        "@ubccpsc310/eslint-plugin-descriptive/no-constant-binary-expression": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-constant-condition": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-control-regex": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-debugger": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-delete-var": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-dupe-else-if": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-duplicate-case": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-empty": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-empty-character-class": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-empty-function": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-empty-pattern": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-empty-static-block": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-eval": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-ex-assign": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-extra-boolean-cast": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-fallthrough": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-floating-promises": [
 			"error",
 			{
 				"ignoreIIFE": true
 			}
 		],
-        "descriptive/no-for-in-array": "error",
-        "descriptive/no-global-assign": "error",
-        "descriptive/no-inferrable-types": "error",
-        "descriptive/no-invalid-regexp": "error",
-        "descriptive/no-labels": "error",
-        "descriptive/no-loss-of-precision": "error",
-        "descriptive/no-magic-numbers": [
+        "@ubccpsc310/eslint-plugin-descriptive/no-for-in-array": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-global-assign": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-inferrable-types": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-invalid-regexp": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-labels": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-loss-of-precision": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-magic-numbers": [
 			"error",
 			{
 				"ignoreClassFieldInitialValues": true,
@@ -104,28 +104,28 @@ module.exports = Object.freeze({
 				"ignore": [-1, 0, 1]
 			}
 		],
-        "descriptive/no-misleading-character-class": "error",
-        "descriptive/no-misused-promises": [
+        "@ubccpsc310/eslint-plugin-descriptive/no-misleading-character-class": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-misused-promises": [
 			"error",
 			{
 				"checksConditionals": true,
 				"checksVoidReturn": false
 			}
 		],
-        "descriptive/no-nonoctal-decimal-escape": "error",
-        "descriptive/no-octal": "error",
-        "descriptive/no-prototype-builtins": "error",
-        "descriptive/no-regex-spaces": "error",
-        "descriptive/no-self-assign": "error",
-        "descriptive/no-shadow": "error",
-        "descriptive/no-shadow-restricted-names": "error",
-        "descriptive/no-throw-literal": "error",
-        "descriptive/no-unsafe-finally": "error",
-        "descriptive/no-unsafe-optional-chaining": "error",
-        "descriptive/no-unused-expressions": "error",
-        "descriptive/no-unused-labels": "error",
-        "descriptive/no-unused-private-class-members": "error",
-        "descriptive/no-unused-vars": [
+        "@ubccpsc310/eslint-plugin-descriptive/no-nonoctal-decimal-escape": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-octal": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-prototype-builtins": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-regex-spaces": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-self-assign": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-shadow": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-shadow-restricted-names": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-throw-literal": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unsafe-finally": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unsafe-optional-chaining": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unused-expressions": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unused-labels": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unused-private-class-members": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-unused-vars": [
             "error",
             {
                 "args": "all",
@@ -137,21 +137,21 @@ module.exports = Object.freeze({
                 "ignoreRestSiblings": true
             }
         ],
-        "descriptive/no-useless-backreference": "error",
-        "descriptive/no-useless-catch": "error",
-        "descriptive/no-useless-escape": "error",
-        "descriptive/no-var": "error",
-        "descriptive/no-with": "error",
-        "descriptive/prefer-const": "error",
-        // "descriptive/prefer-find": "error",
-        "descriptive/prefer-for-of": "error",
-        "descriptive/prefer-function-type": "error",
-        "descriptive/prefer-optional-chain": "error",
-        "descriptive/prefer-spread": "error",
-        "descriptive/promise-function-async": "error",
-        "descriptive/radix": "error",
-        // "descriptive/require-await": "error",
-        "descriptive/unified-signatures": "error",
-        "descriptive/use-isnan": "error"
+        "@ubccpsc310/eslint-plugin-descriptive/no-useless-backreference": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-useless-catch": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-useless-escape": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-var": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/no-with": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/prefer-const": "error",
+        // "@ubccpsc310/eslint-plugin-descriptive/prefer-find": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/prefer-for-of": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/prefer-function-type": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/prefer-optional-chain": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/prefer-spread": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/promise-function-async": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/radix": "error",
+        // "@ubccpsc310/eslint-plugin-descriptive/require-await": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/unified-signatures": "error",
+        "@ubccpsc310/eslint-plugin-descriptive/use-isnan": "error"
     })
 });
