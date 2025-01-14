@@ -1,6 +1,6 @@
 {
   "name": "@ubccpsc310/eslint-plugin-descriptive",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A curated set of lint rules from eslint and typescript-eslint with better error messages.",
   "main": "index.js",
   "keywords": [
